@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="@dimen/item_people_image"
+        android:layout_height="@dimen/item_people_image"
+        android:id="@+id/item_people_image"
+        android:layout_margin="7dp"
+        android:src="@mipmap/head_icon_5"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="风间"
+        android:layout_marginRight="4dp"
+        android:layout_gravity="center"
+        android:id="@+id/item_people_name" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="不服来战"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="4dp"
+        android:id="@+id/item_people_flag" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="北京"
+        android:layout_gravity="center"
+        android:layout_marginRight="4dp"
+        android:id="@+id/item_people_local" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="发送战书"
+        android:layout_gravity="center"
+        android:background="@drawable/takkyuu_grey_rect"
+        android:padding="4dp"
+        android:id="@+id/item_people_sendmatch" />
+</LinearLayout>

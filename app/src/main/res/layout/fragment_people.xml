@@ -1,0 +1,122 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.zhonghua.sdw.takkyuu.fragment.people.PeopleFragment"
+    android:orientation="vertical">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_gravity="center_horizontal" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
+
+                <ImageView
+                    android:layout_width="105dp"
+                    android:layout_height="105dp"
+                    android:layout_margin="20dp"
+                    android:src="@mipmap/head_icon_5"
+                    />
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <include
+                        android:id="@+id/people_name"
+                        layout="@layout/item_people_layout"/>
+
+                    <include
+                        android:id="@+id/people_greden"
+                        layout="@layout/item_people_layout"/>
+                    <include
+                        android:id="@+id/people_age"
+                        layout="@layout/item_people_layout"/>
+                    <include
+                        android:id="@+id/people_weight"
+                        layout="@layout/item_people_layout"/>
+                    <include
+                        android:id="@+id/people_height"
+                        layout="@layout/item_people_layout"/>
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+            <include
+                android:id="@+id/people_club"
+                layout="@layout/item_people_layout"/>
+            <include
+                android:id="@+id/people_floor"
+                layout="@layout/item_people_layout"/>
+            <include
+                android:id="@+id/people_hand"
+                layout="@layout/item_people_layout"/>
+            <include
+                android:id="@+id/people_backhand"
+                layout="@layout/item_people_layout"/>
+            <include
+                android:id="@+id/people_flag"
+                layout="@layout/item_people_layout"/>
+            <include
+                android:id="@+id/people_introduce"
+                layout="@layout/item_people_layout"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="7dp"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="技能点："
+                    />
+                <com.drcosu.ndileber.view.flowtag.FlowTagLayout
+                    android:id="@+id/people_skill_flow_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="7dp"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="对手评价："
+                    />
+
+            </LinearLayout>
+            <android.support.v7.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:id="@+id/comment"
+                android:layout_height="match_parent">
+
+            </android.support.v7.widget.RecyclerView>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

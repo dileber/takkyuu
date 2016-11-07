@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PK"
+            android:layout_margin="5dp"
+            android:layout_gravity="center_vertical" />
+
+        <ImageView
+            android:layout_width="@dimen/user_item_image_size"
+            android:layout_height="@dimen/user_item_image_size"
+            android:id="@+id/home_item_image"
+            android:src="@mipmap/head_icon_5"
+            android:layout_margin="4dp"
+            android:layout_gravity="center_vertical" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="月本诚"
+                android:layout_margin="4dp"
+                android:id="@+id/home_item_name"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="削球小王子"
+                android:layout_margin="4dp"
+                android:id="@+id/home_item_nickname"
+                />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我是很强的"
+            android:id="@+id/home_item_space"
+            android:layout_margin="4dp"
+            android:layout_gravity="center_vertical" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2016年9月14号"
+        android:textSize="@dimen/user_item_date_size"
+        android:gravity="right"
+        android:id="@+id/home_item_date" />
+</LinearLayout>

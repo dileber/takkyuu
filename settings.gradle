@@ -1,0 +1,3 @@
+include ':app', ':dileber', 'easeui', ':datetimepicker-library'
+project(':dileber').projectDir = new File(settingsDir, "../../dileber")
+project(':easeui').projectDir = new File(settingsDir, "../../IMDileber2/IMDeliber/easeui")

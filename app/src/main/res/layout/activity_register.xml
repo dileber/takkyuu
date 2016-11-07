@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zhonghua.sdw.takkyuu.activity.LoginActivity">
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        android:id="@+id/view">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/footer"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/include" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/register_place_height"
+        android:layout_above="@+id/include"
+        android:layout_marginLeft="@dimen/login_text_margin_left"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/login_text_pading"
+            android:hint="@string/takkyuu_register_emial"
+            android:id="@+id/register_email"
+            android:textSize="@dimen/login_text_size"
+            android:background="@drawable/writer_ground_background"
+            android:layout_marginBottom="@dimen/login_text_margin_bottom"
+            android:layout_gravity="right" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:padding="@dimen/login_text_pading"
+
+            android:layout_height="wrap_content"
+            android:hint="@string/takkyuu_pass"
+            android:id="@+id/register_pass"
+            android:textSize="@dimen/login_text_size"
+            android:background="@drawable/writer_ground_background"
+            android:layout_marginBottom="@dimen/login_text_margin_bottom"
+            android:layout_gravity="right" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:padding="@dimen/login_text_pading"
+
+            android:layout_height="wrap_content"
+            android:hint="@string/takkyuu_register_name"
+            android:id="@+id/register_name"
+            android:textSize="@dimen/login_text_size"
+            android:background="@drawable/writer_ground_background"
+            android:layout_marginBottom="@dimen/login_text_margin_bottom"
+            android:layout_gravity="right" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:padding="@dimen/login_text_pading"
+
+            android:layout_height="wrap_content"
+            android:hint="@string/takkyuu_register_nickname"
+            android:id="@+id/register_nickname"
+            android:textSize="@dimen/login_text_size"
+            android:background="@drawable/writer_ground_background"
+            android:layout_marginBottom="@dimen/login_text_margin_bottom"
+            android:layout_gravity="right" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="@string/takkyuu_login"
+            android:layout_height="@dimen/login_button_login_height"
+            android:gravity="center"
+            android:layout_gravity="right"
+            android:paddingLeft="@dimen/login_button_login_padding"
+            android:paddingRight="@dimen/login_button_login_padding"
+            android:background="@drawable/red_ground_background"
+            android:textColor="@android:color/white"
+            android:layout_marginRight="@dimen/login_button_login_margin"
+            android:id="@+id/register_button" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="@dimen/login_image_size"
+        android:layout_height="@dimen/login_image_size"
+        android:id="@+id/login_image"
+        android:src="@mipmap/head_icon_5"
+        android:layout_below="@+id/view"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

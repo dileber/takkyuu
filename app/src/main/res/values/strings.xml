@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">来乒</string>
+
+    <string name="footer">面包派工作室荣誉出品</string>
+
+    <!--<string name="login_title">登录</string>-->
+
+    <string name="takkyuu_login_name">用户名/邮箱</string>
+
+    <string name="takkyuu_login">进入职业生涯</string>
+    <string name="takkyuu_register">创建生涯</string>
+
+    <string name="takkyuu_register_emial">账号(邮箱)</string>
+    <string name="takkyuu_pass">密码</string>
+    <string name="takkyuu_register_name">姓名(参与显示排行)</string>
+    <string name="takkyuu_register_nickname">绰号(如:乒乓小王子)</string>
+
+
+    <string name="takkyuu_home">主页</string>
+    <string name="takkyuu_cons">乒乓圈</string>
+    <string name="takkyuu_serch">通讯录</string>
+    <string name="takkyuu_myname">我的名字</string>
+
+
+    <!--字体图标-->
+    <string name="calendar">&#xe900;</string>
+    <string name="camera">&#xe901;</string>
+    <string name="microphone">&#xe902;</string>
+    <string name="tools">&#xe903;</string>
+    <string name="comments">&#xe904;</string>
+    <string name="checkmark">&#xe905;</string>
+    <string name="heart">&#xe906;</string>
+    <string name="checkmark2">&#xe907;</string>
+    <string name="cancel1">&#xe908;</string>
+    <string name="cancel2">&#xe909;</string>
+    <string name="plus">&#xe90a;</string>
+    <string name="plus2">&#xe90b;</string>
+    <string name="minus">&#xe90c;</string>
+    <string name="user">&#xe90d;</string>
+    <string name="users">&#xe90e;</string>
+    <string name="minus2">&#xe90f;</string>
+    <string name="notice">&#xe910;</string>
+    <string name="notice2">&#xe911;</string>
+    <string name="cog">&#xe912;</string>
+    <string name="m_search">&#xe913;</string>
+    <string name="pictures">&#xe914;</string>
+    <string name="marvin">&#xe915;</string>
+    <string name="checkmark3">&#xe916;</string>
+    <string name="position">&#xe917;</string>
+    <string name="sitemap">&#xe918;</string>
+    <string name="loop2">&#xe919;</string>
+    <string name="sitemap2">&#xe91a;</string>
+    <string name="location">&#xe91b;</string>
+    <string name="phone">&#xe91c;</string>
+    <string name="map">&#xe91d;</string>
+    <string name="trashcan">&#xe91e;</string>
+    <string name="hand">&#xe91f;</string>
+    <string name="medal">&#xe920;</string>
+    <string name="magnifier">&#xe921;</string>
+    <string name="cube">&#xe922;</string>
+    <string name="grid">&#xe923;</string>
+    <string name="grid2">&#xe924;</string>
+    <string name="list">&#xe925;</string>
+    <string name="list2">&#xe926;</string>
+    <string name="chat">&#xe927;</string>
+    <string name="chat2">&#xe928;</string>
+    <string name="chat3">&#xe929;</string>
+    <string name="pencil">&#xe92a;</string>
+    <string name="edit">&#xe92b;</string>
+    <string name="profile">&#xe92c;</string>
+    <string name="rotate">&#xe92d;</string>
+    <string name="rotate2">&#xe92e;</string>
+    <string name="addressbook">&#xe92f;</string>
+    <string name="envelope">&#xe930;</string>
+    <string name="envelope2">&#xe931;</string>
+    <string name="male">&#xe932;</string>
+    <string name="female">&#xe933;</string>
+    <string name="paperplane">&#xe934;</string>
+    <string name="add">&#xe935;</string>
+    <string name="minus3">&#xe936;</string>
+    <string name="alert">&#xe937;</string>
+    <string name="pictures2">&#xe938;</string>
+    <string name="atom">&#xe939;</string>
+    <string name="switch1">&#xe93a;</string>
+    <string name="home3">&#xe93b;</string>
+    <string name="tree">&#xe93c;</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
